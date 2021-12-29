@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 
 // app.use(requireHTTPS);
 
-app.use(express.static('./dist/winter2022'));
+app.use(express.static(`${__dirname}/dist/winter2022/`));
 
 app.get('*', (req, res) => {
     res.sendFile('./dist/winter2022/index.html');
