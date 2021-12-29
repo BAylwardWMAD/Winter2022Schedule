@@ -9,7 +9,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// app.use(requireHTTPS);
+app.use(requireHTTPS);
 
 app.use(express.static(`${__dirname}/dist/winter2022/`));
 
