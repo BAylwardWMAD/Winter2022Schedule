@@ -14,7 +14,7 @@ app.use(requireHTTPS);
 app.use(express.static(`${__dirname}/dist/winter2022/`));
 
 app.get('/*', (req, res) => {
-    res.sendFile('./dist/winter2022/index.html');
+    res.sendFile(`${__dirname}/dist/winter2022/index.html`);
 });
 
 app.listen(PORT, () => {});
