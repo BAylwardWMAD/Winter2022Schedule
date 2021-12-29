@@ -14,3 +14,57 @@ td {
     overflow: hidden;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
+
+.android {
+    background-image: linear-gradient(45deg, #2aca38, #ffffff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.ios {
+    background-image: linear-gradient(45deg, #e7f378, #eee8ea);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.qa {
+    background-image: linear-gradient(45deg, #fb7b03, #fbc9d3);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.advWeb {
+    background-image: linear-gradient(45deg, #0025cc, #fff7fb);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.php {
+    background-image: linear-gradient(45deg, #fdfdfd, #e100ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.java {
+    background-image: linear-gradient(45deg, #2f7af3, #74fa35);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

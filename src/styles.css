@@ -11,9 +11,11 @@
 }
 
 body {
-    background: url('./assets/pexels-eberhard-grossgasteiger-1287142.jpg') center center fixed no-repeat;
+    /* background: url('./assets/pexels-eberhard-grossgasteiger-1287142.jpg') center center fixed no-repeat; */
+    background: url('./assets/pexels-adrien-olichon-2387793.jpg') center center fixed no-repeat;
     background-size: cover;
-    color: #000;
+    /* color: #000; */
+    color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     min-height: 100vh;

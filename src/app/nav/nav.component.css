@@ -1,5 +1,5 @@
 .app-tabs a {
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .app-tabs a i {
@@ -11,4 +11,11 @@
 .app-tabs a i:hover {
     color: #64f;
     transform: translateY(-5px);
+}
+
+@media only screen and (max-width:500px) {
+    .app-tabs {
+        display: flex;
+        justify-content: center;
+    }
 }

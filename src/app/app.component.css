@@ -17,3 +17,9 @@
     padding: 1.5rem 2rem;
     border-radius: 20px;
 }
+
+@media only screen and (max-width:500px) {
+    .bottom-section {
+        width: 80%;
+    }
+}
