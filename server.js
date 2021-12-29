@@ -7,12 +7,14 @@ function requireHTTPS(req, res, next) {
 }
 const express = require('express');
 const app = express();
-app.use(requireHTTPS);
+const PORT = 1337;
 
-app.use(express.static(`./dist/winter2022`));
+// app.use(requireHTTPS);
 
-app.get(`*`, function(req, res) {
-    res.sendFile(`index.html`, { root: 'dist/winter2022' });
+app.use(express.static('./dist/winter2022'));
+
+app.get('', (req, res) => {
+    res.sendFile('index.html', { root: './dist/winter2022' });
 });
 
-app.listen(process.env.PORT || 8080);
+app.listen(PORT || 8080, () => {});
