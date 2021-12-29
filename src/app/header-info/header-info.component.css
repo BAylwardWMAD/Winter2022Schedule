@@ -1,0 +1,13 @@
+.header-info {
+    text-align: center;
+    padding: 10% 0;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
