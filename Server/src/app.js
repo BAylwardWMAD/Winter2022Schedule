@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 });
 
 app.get('', (req, res) => {
-    res.render('/', {});
+    res.sendFile(path.join(__dirname + '/dist/index.html'));
 })
 
 app.use((req, res, next) => {
